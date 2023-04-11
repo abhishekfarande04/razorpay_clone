@@ -996,78 +996,93 @@
     </section>
     <!-- footer -->
     <footer>
-        <div class="flex max-w-[1080px] mx-auto justify-between mt-12 pt-4">
+        <div class="flex max-w-[1080px] mx-auto justify-between mt-12 pt-4 space-y-6">
             <div class="max-w-[260px]">
-                <img src="./images2/logo-dark.svg" alt="">
-                <p>Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite. It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.</p>
-                <p>RazorpayX supercharges your business banking experience, bringing effectiveness, efficiency, and excellence to all financial processes. With RazorpayX, businesses can get access to fully-functional current accounts, supercharge their payouts and automate payroll compliance.</p>
-                <p>Manage your marketplace, automate bank transfers, collect recurring payments, share invoices with customers and avail working capital loans - all from a single platform. Fast forward your business with Razorpay.</p>
-                <p>Disclaimer: The RazorpayX powered Current Account and VISA corporate credit card are provided by RBI licensed banks. Your RazorpayX powered account is provided by our partner bank, in accordance with RBI regulations. RazorpayX itself is not a bank and doesn't hold or claim to hold a banking license.</p>
-                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <img src="./images2/logo-dark.svg" alt="" loading="lazy" width="120px" height="24px">
+                <p class="font-mullish text-sm text-[#818597] mt-3 ">Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite. It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.</p>
+                <p class="font-mullish text-sm text-[#818597] mt-3">RazorpayX supercharges your business banking experience, bringing effectiveness, efficiency, and excellence to all financial processes. With RazorpayX, businesses can get access to fully-functional current accounts, supercharge their payouts and automate payroll compliance.</p>
+                <p class="font-mullish text-sm text-[#818597] mt-3">Manage your marketplace, automate bank transfers, collect recurring payments, share invoices with customers and avail working capital loans - all from a single platform. Fast forward your business with Razorpay.</p>
+                <p class="font-mullish text-[0.625rem] text-[#818597] mt-3">Disclaimer: The RazorpayX powered Current Account and VISA corporate credit card are provided by RBI licensed banks. Your RazorpayX powered account is provided by our partner bank, in accordance with RBI regulations. RazorpayX itself is not a bank and doesn't hold or claim to hold a banking license.</p>
+                <h3 class="font-mullish font-bold text-[#525a76] mt-2">SUBSCRIBE TO OUR <br> NEWSLETTER</h3>
                 <!-- form -->
-                <form action="">
-                    <input type="text" id="fname" name="fname" value="" placeholder="Your email address">
-                    <button></button>
+                <form action="" class="relative bg-white w-[260px] mt-2 mb-4 ">
+                    <input type="text" id="fname" name="fname" value="" placeholder="Your email address" class="pr-16 border-gray-300 placeholder:text-sm py-2 px-4 border rounded-sm transition-all duration-200">
+                    <button class="text-[#4b94ed] absolute -mt-8 px-2 font-mullish text-sm right-[2px]
+                      outline-lightBlue focus:outline-lightBlue font-medium bg-white transition-all duration-200 hover:text-[#0b72e7] flex">Subscribe
+                        <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3 mt-1">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                      </svg></button>
                 </form>
                 <!-- 2 images side by side  -->
-                <div>
-                    <img src="./images2/footer-certificate-1.png" alt="">
-                    <img src="./images2/footer-certificate-2.jpg" alt="">
+                <div class="flex items-start gap-4">
+                    <img src="./images2/footer-certificate-1.png" alt="" width="92" height="40">
+                    <img src="./images2/footer-certificate-2.jpg" alt="" width="50%">
                 </div>
             </div>
             <div class="max-w-[260px]">
                 <!-- banking plus div -->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <span>New<span>
+                    <h3 class="font-mullish font-bold text-[#525a76] mb-1">BANKING PLUS</h3>
+                    <ul class="space-y-2">
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>RazorpayX</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Current Accounts</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Payouts</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Payout links</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Corporate Credit Card</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>View Live Demo<span class="text-white bg-green-500 rounded-sm text-xs px-1 mx-1">New</span></li>
+                    </ul>
+                    
 
                 </div>
                 <!-- lending div -->
                 
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3 class="font-mullish font-bold text-[#525a76] my-1">LENDING</h3>
+                    <ul class="space-y-2">
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Razorpay Capital</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Instant Settlements</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Working Capital Loans</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Marketplace Instant Settlements</li>
+                    </ul>
                     
 
                 </div>
 
                 <!-- risk and fraud div -->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <span>New<span>
+                    <h3 class="font-mullish font-bold text-[#525a76] my-1">RISK & FRAUD</h3>
+                    <ul class="space-y-2">
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Thirdwatch</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>PrePay CoD<span class="text-white bg-green-500 rounded-sm text-xs px-1 mx-1">New</span></li>
+                    </ul>
+                    
 
                 </div>
                 <!-- become a partner div -->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3 class="font-mullish font-bold text-[#525a76] my-1">BECOME A PARTNER</h3>
+                   <ul class="space-y-2">
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Refer and Earn</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Onboarding APIs</li>
+                   </ul>
 
                 </div>
 
                 <!-- more -->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3 class="font-mullish font-bold text-[#525a76] my-1">MORE</h3>
+                    <ul class="space-y-2">
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Route</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Invoices</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Freelancer Payments</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>International</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Flash Checkout</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>UPI</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>ePOS</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Checkout Demo</li>
+                        <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>RazorpayX Payroll</li>
+                    </ul>
+                    
                 </div>
                 
 
@@ -1076,52 +1091,62 @@
             <div class="max-w-[260px]">
                 <!-- accept payments div -->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>ACCEPT PAYMENTS</h3>
+                    <ul>
+                        <li><a href=""></a>Payment Gateway</li>
+                        <li><a href=""></a>Payment Pages</li>
+                        <li><a href=""></a>Payment Links</li>
+                        <li><a href=""></a>QR Codes</li>
+                        <li><a href=""></a>Subscriptions</li>
+                        <li><a href=""></a>Smart Collect</li>
+                    </ul>
 
                 </div>
                 <!-- developers div-->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>DEVELOPERS</h3>
+                    <ul>
+                        <li><a href=""></a>Docs</li>
+                    <li><a href=""></a>Integrations</li>
+                    <li><a href=""></a>API reference</li>
+                    </ul>
 
                 </div>
 
                 <!-- resources div-->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>RESOURCES</h3>
+                   <ul>
+                    <li><a href=""></a>Blog</li>
+                    <li><a href=""></a>Customer Stories</li>
+                    <li><a href=""></a>Events</li>
+                    <li><a href=""></a>Chargeback Guide</li>
+                    <li><a href=""></a>Settlement Guide</li>
+                   </ul>
 
                 </div>
 
                 <!-- solutions div-->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>SOLUTIONS</h3>
+                    <ul>
+                        <li><a href=""></a>Eduation</li>
+                        <li><a href=""></a>E-commerce</li>
+                        <li><a href=""></a>SAAS</li>
+                        <li><a href=""></a>BFSI</li>
+                    </ul>
+                    
 
                 </div>
 
                 <!-- free tools div-->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>FREE TOOLS</h3>
+                    <ul>
+                        <li><a href=""></a>GST Calculator</li>
+                    <li><a href=""></a>Online TDS Payment</li>
+                    <li><a href=""></a>GST Number Search</li>
+                    </ul>
                     <span>new</span>
 
                 </div>
@@ -1129,31 +1154,36 @@
                 
             </div>
             <div class="max-w-[260px]">
-                <!-- free tools div-->
+                <!-- company div-->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <span></span>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>COMPANY</h3>
+                   <ul>
+                    <li><a href=""></a>About Us</li>
+                    <li><a href=""></a>Careers </li>
+                    <span>We're hiring!</span>
+                    <li><a href=""></a>Terms of Use</li>
+                    <li><a href=""></a>Privacy Policy</li>
+                    <li><a href=""></a>Grievance Redressal</li>
+                    <li><a href=""></a>Responsible Disclosure</li>
+                    <li><a href=""></a>Partners</li>
+                    <li><a href=""></a>White Papers
+                    </li>
+                    <li><a href=""></a>Corporate Information</li>
+                   </ul>
                     
 
                 </div>
 
                 <!-- help and support div-->
                 <div>
-                    <h3></h3>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <h3>HELP & SUPPORT</h3>
+                    <ul>
+                        <li><a href=""></a>Support</li>
+                    <li><a href=""></a>Knowledge base</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3></h3>
+                    <h3>FIND US ONLINE</h3>
                 </div>
                 <!-- icons div -->
                 <div>
@@ -1164,7 +1194,7 @@
                     <img src="./images2/linkedin-icon.svg" alt="">
                 </div>
                 <div>
-                    <h3></h3>
+                    <h3>REGD. OFFICE ADDRESS</h3>
                 </div>
                 <div>
                     <p>Razorpay Software Private Limited,
