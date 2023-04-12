@@ -46,7 +46,7 @@
                 <img src="./images/logo.svg" alt="logo" height="400px" width="100px">
             </a>
             <ul class="flex space-x-6">
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="">Payments</a>
                     <!-- underline below links -->
                     <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -54,7 +54,7 @@
                     </div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white hidden lg:block font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
                     <a href="">Banking</a>
                     <!-- underline below links -->
                     <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -62,7 +62,7 @@
                     </div>
                 </li>
                 
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white hidden lg:block font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
                     <a href="">Corporate card</a>
                     <!-- underline below links -->
                     <!-- <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -70,7 +70,7 @@
                     </div> -->
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white hidden lg:block font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
                     <a href="">Payroll</a>
                     <!-- underline below links -->
                     <!-- <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -78,7 +78,7 @@
                     </div> -->
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white hidden lg:block font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
                     <a href="">Resources</a>
                     <!-- underline below links -->
                     <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -86,7 +86,7 @@
                     </div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white hidden lg:block font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
                     <a href="">Support</a>
                     <!-- underline below links -->
                     <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -94,7 +94,7 @@
                     </div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white hidden lg:block font-mullish py-7 hover:text-[#2b84ea] cursor-pointer transition-all duration-200 relative group">
                     <a href="">Pricing</a>
                     <!-- underline below links -->
                     <div class="absolute w-full h-1 bottom-0 hidden group-hover:block bg-[#2b84ea] transition-all duration-200"> 
@@ -109,9 +109,9 @@
             </ul>
 
             <div class="flex space-x-6 ">
-                <img src="./images/india-flag.svg" alt="" height="30px" width="28px">
+                <img src="./images/india-flag.svg" alt="" height="30px" width="28px" class="hidden lg:block">
                 <button class="border border-[#2b84ea] text-white py-3 px-5 font-mullish text-sm font-bold">Log in </button>
-                <button class="text-[#4b94ed] py-3 px-5 font-mullish text-sm font-medium bg-white transition-all duration-200 hover:text-[#0b72e7] flex">Sign Up <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3 mt-1">
+                <button class="text-[#4b94ed] py-3 px-5 font-mullish text-sm font-medium bg-white transition-all duration-200 hover:text-[#0b72e7] flex hidden lg:flex">Sign Up <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3 mt-1">
                     <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
                   </svg></button>
 
@@ -123,7 +123,8 @@
     <!-- next hero section -->
     <section class="relative bg-[#02042a]">
         
-        <div class="flex w-10/12 flex-row justify-between items-center mx-auto max-w-[1080px]">
+        <div class="flex w-10/12 lg:flex-row justify-between items-center mx-auto max-w-[1080px] 
+        flex-col">
             <div class="space-y-8">
                 <!-- left -->
             <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
@@ -152,7 +153,8 @@
         <img src="./images2/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" class="absolute top-[3rem] right-0 inline-block rotate-[180deg]"> 
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
             <!-- heading -->
-            <h2 class="font-bold font-mullish text-center text-2xl leading-[1.2] ">Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class="font-bold font-mullish text-center text-2xl leading-[1.2] hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class="font-bold font-mullish text-center text-5xl leading-[1.2] md:hidden">Explore Razorpay Payment Suite</h2>
             <!-- underline -->
             <div class="w-6 h-1 bg-[#61cea6] mx-auto mt-4 mb-6 "></div>
             <!-- content box -->
@@ -191,11 +193,11 @@
                         </li>
                     </ul>
                     <!-- buttons -->
-                    <div class="flex flex-row items-center space-x-4 ">
-                        <button class="bg-[#2b84ea] text-white w-fit py-[14px] font-mullish font-bold hover:bg-[#0b72e7] px-[18px] transition-all duration-200 rounded-md flex-row flex">Sign Up Now <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3 mt-1.5">
-                            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
-                          </svg></button>
-                        <div class="flex flex-row cursor-pointer items-center group">
+                    <div class="flex flex-col-reverse items-center space-x-4 md:flex-row">
+                        <button class="bg-[#2b84ea] text-white w-full md:w-fit py-[14px] font-mullish font-bold hover:bg-[#0b72e7] px-[18px] transition-all duration-200 rounded-md"><span class="button-text md:inline-flex md:items-center">
+                            Sign Up Now
+                          </span></button>
+                        <div class="flex flex-row cursor-pointer md:items-center group self-start">
                             <a href="#" class="font-mullish font-bold text-[#0b72e7] group-hover:text-[#2b84ea] transition-all duration-200">Know More</a>
                             <i
                             data-feather="chevron-right"
@@ -204,7 +206,7 @@
                         
                     </div>
                 </div>
-                <img src="./images2/payment-suite.png" alt="" width="" class="max-w-[600px] absolute right-0 bottom-0">
+                <img src="./images2/payment-suite.png" alt="" width="" class="max-w-[600px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block">
 
             </div>
             <div class="relative grid grid-cols-3 w-full gap-4 mt-10">
@@ -1145,9 +1147,9 @@
                     <ul class="space-y-2" >
                         <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>GST Calculator</li>
                     <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>Online TDS Payment</li>
-                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>GST Number Search</li>
+                    <li class="font-mullish text-[#0b72e7] hover:text-[#344a6c] font-medium"><a href=""></a>GST Number Search<span class="text-white bg-green-500 rounded-sm text-xs px-1 mx-1">New</span></li>
                     </ul>
-                    <span>new</span>
+                    
 
                 </div>
 
@@ -1185,26 +1187,26 @@
                     <h3 class="font-mullish font-bold text-[#525a76] my-1">FIND US ONLINE</h3>
                 </div>
                 <!-- icons div -->
-                <div>
+                <div class="flex gap-x-1 mt-2">
                     <img src="./images2/facebook-icon.svg" alt="">
                     <img src="./images2/twitter-icon.svg" alt="">
                     <img src="./images2/instagram-icon.svg" alt="">
                     <img src="./images2/twitter-icon.svg" alt="">
-                    <img src="./images2/linkedin-icon.svg" alt="">
+                    <img src="./images2/linkedin-icon.svg" alt="" width="24" height="24">
                 </div>
                 <div>
-                    <h3>REGD. OFFICE ADDRESS</h3>
+                    <h3 class="font-mullish font-bold text-[#525a76] my-2">REGD. OFFICE ADDRESS</h3>
                 </div>
                 <div>
-                    <p>Razorpay Software Private Limited,
+                    <p class="font-mullish text-sm mt-2">Razorpay Software Private Limited,
                         1st Floor, SJR Cyber,
                         22 Laskar Hosur Road, Adugodi,
                         Bengaluru, 560030,
                         Karnataka, India
                         CIN: U72200KA2013PTC097389</p>
                 </div>
-                <p>© Razorpay 2022</p>
-                <p>All rights reseved</p>
+                <p class="text-sm">© Razorpay 2022</p>
+                <p class="text-sm">All rights reseved</p>
 
                 
             </div>
